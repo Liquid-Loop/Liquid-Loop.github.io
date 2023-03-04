@@ -148,7 +148,7 @@
     
 }
 .quiklinks li a:hover:after{
-    content: "-";
+    content: "->";
 }
 #loader{
 	position: fixed;
