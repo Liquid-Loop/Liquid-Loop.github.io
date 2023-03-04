@@ -4,10 +4,11 @@
   } */
   body{
     font-family: myFirstFont;
+    font-weight: 700;
   }
   @font-face {
     font-family: myFirstFont;
-    src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(/fonts/SpaceMono-Regular.ttf);
   }
 .content{
     padding: 100px 0;
