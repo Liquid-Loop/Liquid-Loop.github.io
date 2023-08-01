@@ -4,310 +4,172 @@
   } */
   body{
     font-family: myFirstFont;
-    font-weight: 700;
+    font-weight: 500;
     background: url('../animated_medium20201028-822-ike4dl.mp4') no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-color:#E5E5E3;
+    
+    
   }
+  ::-webkit-scrollbar {
+    width: 0.5em; /* Adjust the width if necessary */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide the thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Hide the track */
+}
   @font-face {
     font-family: myFirstFont;
-    src: url(/fonts/SpaceMono-Regular.ttf);
+    src: url(/fonts/Handjet-VariableFont_ELGR\,ELSH\,wght.ttf);
   }
-.content{
-    padding: 100px 0;
-    color: rgb(0, 63, 46);
+  .navbar-toggler-icon {
 
-}
-.content h1{
-    font-size: 60px;
-    color: rgb(0, 63, 46);
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-.button{
-    background-color: rgb(0, 63, 46);
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    transform: .3s ease-in-out;
-    margin-top: 30px;
-    
-}
-.button:hover{
-    background-color: white;
-    color: rgb(0, 63, 46);
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    opacity: 0.8;
-    transition: .7s ease-in-out;
-    transform: scaleX(2);
-    border: 1pt solid rgb(0, 63, 46);
-
-}
-.img-rs{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.research{
-    color:rgb(0, 63, 46);
-    
-}
-.research h1{
-    position: relative;
-    top: 34px;
-}
-.research p, .research a{
-    position: relative;
-    top: 40px;
-    
-}
-.research p{
-    opacity: .8;
-}
-.image{
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.image img{
-    margin-left: 200px;
-    margin:40px;
 
+.centered-menu-item {
+    margin: 0 15px;
 }
-.founder{
-    padding: 20px 50px;
-    background-color: #006b4e ;
-    color: aliceblue;
-}
-.qoutes h1,.qoutes p{
-    position: relative;
-    top: 121px;
-    color:black;
-    opacity: .8;
 
-}
-.qoutes p{
-    opacity: .8;
-}
-.qoutes a{
-    position: relative;
-    top: 121px;
-    color: #006b4e;
-    font-weight: 400;
-    font-size: 20px;
-    text-decoration: none;
-    transform: .3s ease-in-out;
-}
-.qoutes a:hover{
+.brand-slagon {
+    font-size: 2.5rem;
     color: white;
-    opacity: .8;
-    transform: .7s ease-in-out;
-    transform: scaleX(2);
-    border: 1pt solid white;
-    border-radius: 20px;
-    padding: 10px 15px;
-}
-.para{
-    font-size: 23px;
-    font-weight: 400;
-}
-.butt{
-    
-    text-decoration: none;
-    color:#2eb9a4 ;
-    font-size: 23px;
-    transform: .7s ease-in-out;
-
-}
-.butt:hover{
-    opacity: .8;
-    text-decoration: none;
-
-}
-.quiklinks li a{
-    text-decoration: none;
-    display: block;
-    color: black;
-    font-weight: 500;
-    font-size: 15px;
-    transition: all .7s ease-in-out;
-
-    
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid #333;
+    animation: typing 2s steps(40), blink-caret 0.75s step-end infinite;
 }
 
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
 
-.quiklinks li {
-    text-decoration: none;
-    font-weight: 400;
-    display: block;
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #333; }
+}
+.navbar {
+    background-color: #E5E5E3;
+}
+.container {
+    position: relative;
+    text-align: center;
+}
 
-}
-.quiklinks li a:hover{
-    opacity: .8;
-    
-}
-.quiklinks li a:hover:after{
-    content: "->";
-}
-#loader{
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	background: #fff ;
-	z-index: 999;
-}
-#loader h1{
+.brand-slagon {
+    font-size: 4rem;
+    color: ;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.1em solid #333;
+    animation: typing 2s steps(60), blink-caret 0.75s step-end infinite;
+    display: inline-block;
+    margin-bottom: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-}
-/* Desktop Display */
-@media screen and (max-width:1920px) and (min-width:900px) {
-.webdesign{
-    position: relative;
-    left: 180px;
+    transform: translate(-50%, -50%);
 }
 
+@keyframes typing {
+    from { width: 0; }
+    to { width: 50%; }
 }
-/* Mobile Display 768px */
-@media (max-width:768px ) {
-    .webdesign{
-        position: relative;
-        left: 0px;
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #333; }
+}
+
+.brand-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    letter-spacing: 2px;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.brand-button:hover {
+    background-color: #222;
+}
+
+@media (max-width: 767px) {
+    .brand-slagon {
+        font-size: 2rem;
     }
-    .learnm{
-        position: relative;
-        left: 6%;
-    }
-    .content h1{
-        font-size: 50px;
-        font-size: 35px;
-        text-align: center;
-    }
-    .content p{
-        font-size: 17px;
-        text-align: center;
-    }
-    .content a{
-        text-align: center;
-        margin-left: 30%;
-    }
-    .research h1{
-        position: relative;
-        top: -8px;
-        text-align: center;
-    }
-    .research p, .research a{
-        position: relative;
-        top: -8px;
-        text-align: center;
-    }
-    .research p{
-        opacity: .8;
-        font-size: 18px;
-    }
-    .research a{
-        left: 92px;
-    }
-    .button{
-        background-color: rgb(0, 63, 46);
+}
+
+@media (max-width: 576px) {
+    .brand-slagon {
+        font-size: 2.4rem;
         color: #fff;
-        padding: 7px 20px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 17px;
-        font-weight: 400;
-        transform: .3s ease-in-out;
-        
     }
-    #skj{
-        margin-top: 20px;
-    }
-    .button:hover{
-        background-color: white;
-        color: rgb(0, 63, 46);
-        padding: 7px 20px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-size: 17px;
-        font-weight: 400;
-        opacity: 0.8;
-        transform: .7s ease-in-out;
-        transform: scaleX(2);
-        border: 1pt solid rgb(0, 63, 46);
-    
-    }
-    .qoutes h1,.qoutes p{
-        position: relative;
-        top: 0px;
-        color:black;
-        opacity: .8;
-        text-align: center;
-    
-    }
-    .qoutes p{
-        opacity: .8;
-        font-size: 12px;
-    }
-    .qu{
-        font-size: 13px;
-    }
-    .butt{
-       display:none
-    }
-    .butt:hover{
-        opacity: .8;
-        text-decoration: none;
-    
-    }
-}
-
-
-
-/* Tab Display */
-@media screen and (max-width:900px) and (min-width:768px) {
-    .webdesign{
-        position: relative;
-        left: 10px;
-    }
-    .content h1{
-        font-size: 50px;
-        font-size: 35px;
-        
-    }
-    
-
-.content p{
-    font-size: 17px;
-    
-}
-
-.research h1{
-    position: relative;
-    top: -8px;
-    
-}
-.research p, .research a{
-    position: relative;
-    top: -8px;
-    
-}
-.research p{
-    opacity: .8;
-    font-size: 18px;
 }
 .banner{
-    
-        position: relative;
-        top: 24%;
+    background: url('/image/banner.jpg') no-repeat center center fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            height: 100vh; /* Set the height to 100% of the viewport height */
+}
+img {
+    border-radius: 10px; /* Adjust the border-radius to control the amount of rounding */
+    width: 100%; /* Adjust the width to set the size of the image */
+    max-width: 400px; /* Set the maximum width to ensure it doesn't become too large on larger screens */
+    display: block; /* Remove any extra spacing below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* Set the container to occupy full height */
 }
 
+/* Center-align team-text and team-text-2 from the top */
+.team-text {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 20%;/* Remove default margin to align from the top */
+}
 
+.team-text-2 {
+    font-size: 1.2rem;
+    margin-top: 0%; 
+    /* Set the opacity to 50% to indicate that the text is not active */
+    /* Add margin to separate the texts */
+}
+/* For small screens, adjust font-size for responsive text */
+@media (max-width: 576px) {
+    .team-text {
+        font-size: 1.5rem;
+    }
+
+    .team-text-2 {
+        font-size: 1rem;
+    }
+}
+.section-team {
+    background-color: white; /* Add a background color for a rounded corner effect */
 }
