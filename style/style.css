@@ -5,6 +5,11 @@
   body{
     font-family: myFirstFont;
     font-weight: 700;
+    background: url('../animated_medium20201028-822-ike4dl.mp4') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
   @font-face {
     font-family: myFirstFont;

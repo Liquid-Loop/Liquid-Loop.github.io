@@ -1,3 +1,8 @@
-.banner{
-    background-image: url("images/banner1.png");
-}
+.banner {
+    background: url('../image/animated_medium20201028-822-ike4dl.mp4') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
