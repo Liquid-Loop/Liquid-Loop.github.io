@@ -96,7 +96,7 @@
 .brand-button {
     background-color: #000;
     color: #fff;
-    padding: 10px 20px;
+    padding: 7px 30px;
     border-radius: 30px;
     display: inline-block;
     text-decoration: none;
@@ -163,7 +163,7 @@ img {
 /* For small screens, adjust font-size for responsive text */
 @media (max-width: 576px) {
     .team-text {
-        font-size: 1.5rem;
+        font-size: 2.7rem;
     }
 
     .team-text-2 {
@@ -173,3 +173,218 @@ img {
 .section-team {
     background-color: white; /* Add a background color for a rounded corner effect */
 }
+.enlist-button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 7px;
+
+}
+.section-vision {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+    overflow: hidden; /* Hide the overflowing text */
+}
+
+.section-vision p {
+    font-size: 3rem;
+    line-height: 1.2; /* Adjust line height for appropriate spacing */
+    animation: running-line 10s linear infinite; /* Animation settings */
+    white-space: nowrap; /* Prevent line break */
+    padding: 0; /* Remove padding for better alignment */
+    margin: 0; /* Remove margin for better alignment */
+}
+
+/* Keyframes for the running line animation */
+@keyframes running-line {
+    0% {
+        transform: translateX(100%); /* Start from right side */
+    }
+    100% {
+        transform: translateX(-100%); /* Move to left side */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .section-vision p {
+        font-size: 2rem;
+        line-height: 1.5; /* Adjust line height for smaller screens */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-vision p {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .section-vision p {
+        font-size: 2.8rem;
+    }
+}
+
+
+/* Common styles for the section */
+.section-projects {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section-projects h3 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.head-neurometaps {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.para-neurometaps {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #555;
+}
+.head-style{
+    font-size: 5rem;
+}
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .section-projects h3 {
+        font-size: 2rem;
+    }
+
+    .head-neurometaps {
+        font-size: 1.8rem;
+    }
+
+    .para-neurometaps {
+        font-size: 1rem;
+    }
+    .head-style{
+        font-size: 3rem;
+    }
+
+}
+
+
+/* Animation for the image */
+.animated {
+    animation: moveImage 4s linear infinite alternate;
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+
+
+
+
+
+.section-projects2 {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    
+}
+
+.section-projects2 h3 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.section-projects2 h1 {
+    font-size: 7rem;
+    color: #000;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .section-projects2 h3 {
+        font-size: 1.4rem;
+    }
+
+    .section-projects2 h1 {
+        font-size: 3rem;
+    }
+
+    
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.pickmi-content {
+    
+    color: #020202;
+}
+
+.pickmi-content h3 {
+    font-size: 10rem;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    margin-left: 20px;
+}
+
+.pickmi-content p {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    line-height:.7;
+    letter-spacing: 10px;
+    margin-left: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .pickmi-content h3 {
+        font-size: 5rem;
+    }
+
+    .pickmi-content p {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

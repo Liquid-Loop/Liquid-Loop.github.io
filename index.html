@@ -26,6 +26,8 @@
         })();
     </script>
     <link rel="stylesheet" href="./style/style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -43,13 +45,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item centered-menu-item">
-                            <a class="nav-link" href="#">TechGems</a>
+                            <a class="nav-link active" href="#TechGems">TechGems</a>
                         </li>
                         <li class="nav-item centered-menu-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item centered-menu-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link active" href="./about.html">Company</a>
                         </li>
                     </ul>
                 </div>
@@ -78,12 +77,52 @@
                 <div class="col-md-6 flex-container">
                     <h3 class="team-text">TechWizards<span style="color: darkgrey;">Unleashed!</span></h3>
                     <h6 class="team-text-2">Passionate young developers dedicated to innovations and coding. <br> Join us on our journey of innovation and collaboration for a limitless tech future.</h6>
-                    <a href="mailto:" class="">Enlist Now</a>
+                    <a href="mailto:" class="enlist-button">Enlist Now</a>
                 </div>
             </div>
         </div>
     </section>
+    <section class="section-vision">
+        <div class="container-fluid">
+                <p>Pioneering innovation through advanced tech, shaping an awe-inspiring future</p>
 
+        </div>
+    </section>
+    <section class="section-projects my-4" id="TechGems">
+        <div class="container-fluid text-justify ">
+            <h3>Innovating Tomorrow's Revolution #1</h3>
+            <div class="row my-5">
+            <div class="col-md-6">
+                 <h1 class="head-neurometaps">Neuro<span style="color: darkgray;" >Metaps</span> : Deeply to animal cerebrum</h1>
+                    <p class="para-neurometaps">Neurometaps is a deep learning based project that aims to provide a better understanding of the animal  brain and its functions. It is a project that aims to provide a better understanding of the animal brain and its functions.   It is a project that aims to provide a better understanding of the animal brain  and its functions. . It is a project that aims to provide a better understanding of the animal brain and its functions. </p>
+                    <h1 class="text-center head-style animated"><Span style="color: darkgray;">NEURO</Span> META MAPS</h1>
+                    <p class="para-neurometaps "> It is a project that aims to provide a better understanding of the animal brain and its functions.It is a project that aims to provide a better understanding of the animal brain and its functions. It is a project that aims to provide a better understanding of the animal brain and its functionsIt is a project that aims to provide a better understanding of the animal brain and its functions. It is a project that aims to provide a better understanding of the animal brain and its functions</p>
+                
+            </div>
+            <div class="col-md-6">
+                <img src="/image/brain.jpg" alt="not Found" class="animated mt-4">
+                <p class="mt-2 text-center">Project Status : Analysing the possibilities</p>
+            </div>
+        </div>
+        
+           
+    </section>
+    <section class="section-projects2 my-4">
+        <div class="container-fluid text-justify ">
+            <div class="row my-5">
+                <h1 class="animated text-center">#Freedom<span style="color: darkgrey;">For</span><span style="color:#FFE400;">Drivers</span></h1>
+            <div class="col-md-6">
+                <img src="/image/taxi.jpg" alt="not Found" class="animated mt-4">
+            </div>
+            <div class="col-md-6 pickmi-content">
+                <h3>Pickmi APP</h3>
+                <p >Unlock Your</p>
+                <p style="color: darkgray;">Journey</p>
+                <p>On Demand!</p> 
+            </div>
+            <p class="text-center mt-4">| A revolutionary taxi booking app for IOS and Android with revolutionary features | Added #freedomForDriver feature for driver app | Book any vehicles any time anywhere |</p>
+        </div>
+    </section>
 
     
 
@@ -114,12 +153,12 @@
 
 
 
-        <!-- <script>
+        <script>
             var d=document.getElementById("date2");
             date=new Date().getFullYear()
-            d=document.write(`©`+date+` Liquid L<img src="./image/infinity.png" width="20px" alt="liquid loop codes">p Codes Ltd India (IN)`)
+            d=document.write(`©`+date+` Liquid Loop Codes Ltd India (IN)`)
             
-        </script> -->
+        </script>
         <p><span id="date2"> </span></p>
     </section>
 
