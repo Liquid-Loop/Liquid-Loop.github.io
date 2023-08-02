@@ -429,6 +429,33 @@ img {
 
 
 
+/* Your existing styles */
+
+/* Custom Styles for Social Media Section */
+.social-icons {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: #333;
+    margin: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    color: #598181; /* Change to your desired hover color */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .social-icon {
+        font-size: 1.5rem;
+    }
+}
 
 
 
