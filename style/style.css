@@ -11,6 +11,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-color:#E5E5E3;
+      overflow-x:hidden;
     
     
   }
